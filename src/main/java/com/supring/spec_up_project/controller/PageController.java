@@ -1,4 +1,4 @@
-package com.supring.sepc_up_project.controller;
+package com.supring.spec_up_project.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

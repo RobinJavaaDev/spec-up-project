@@ -19,7 +19,7 @@
     </div>
     <div class="input-group">
     	<label for="password">패스워드</label>
-    	<input type="text" id="password" name="password" required>
+    	<input type="password" id="password" name="password" required>
     </div>
     <div class="input-group">
     	<label for="writer">작성자</label>

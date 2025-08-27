@@ -1,0 +1,23 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f7f9fc;
+}
+
+.main-content {
+  flex: 1;
+  padding: 0 0 40px 0;
+}
+
+/* 헤더 아래 살짝 그림자와 간격 */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+
+
+
+

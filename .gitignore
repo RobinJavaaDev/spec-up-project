@@ -10,7 +10,6 @@ hs_err_pid*
 replay_pid*
 
 # Maven
-target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -68,6 +67,3 @@ coverage/
 # Temporary folders
 tmp/
 temp/
-
-# 중첩된 git 저장소
-spec-up-project/

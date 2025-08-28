@@ -1,0 +1,21 @@
+[commit]
+    template = .gitmessage
+    verbose = true
+
+[core]
+    autocrlf = true
+    quotepath = false
+
+[init]
+    defaultBranch = main
+
+[push]
+    default = simple
+
+[alias]
+    # AI 자동 커밋을 위한 별칭
+    aic = !git add . && git commit -m
+    # 한글 커밋 메시지와 함께 자동 커밋
+    aic-ko = !f() { git add . && git commit -m "$1"; }; f
+
+

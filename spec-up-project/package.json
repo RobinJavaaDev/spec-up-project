@@ -1,0 +1,30 @@
+{
+  "name": "spec-up-project-fullstack",
+  "version": "1.0.0",
+  "description": "지역기반 커뮤니티 & 중고 거래 플랫폼 - 풀스택 프로젝트",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && .\\mvnw.cmd spring-boot:run",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && .\\mvnw.cmd clean package",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && java -jar target/spec-up-project-0.0.1-SNAPSHOT.jar",
+    "start:frontend": "cd frontend && npm run start",
+    "install:all": "npm install && cd frontend && npm install",
+    "clean": "cd backend && .\\mvnw.cmd clean && cd ../frontend && rmdir /s /q .next node_modules"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

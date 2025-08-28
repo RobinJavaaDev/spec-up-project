@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-*{
-	maggin:0;
-	padding:0;
-}
-=======
+
 /* *{
 	margin:0;
 	padding:0;
 } */
->>>>>>> 519a679676e2f27036f262a07b50f1105a9e691a
+
+
 
 #login-container-wrapper{
 	display:flex;

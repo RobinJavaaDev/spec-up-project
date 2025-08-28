@@ -44,6 +44,14 @@ cd frontend
 npm install
 npm run dev
 ```
+
+** 주의점 : 해당 경로 파일을 cmd 에서 ★정확한 경로에서 실행시켜야함 
+(ex C:spec-up-project-main/spec-up-project) 여기서 main 폴더를 실행시키는 것이아니라,
+main 폴더 안에있는 spec-up-project를 실행 시키기에  cd C:spec-up-project-main/spec-up-project 으로 경로 변경해줘야함
+
+이유는 main 폴더에서는 react next.js 환경 뿐만아니라 spring boot 자바 환경도있기에 한번에 다 실행되지않아 오류가나 실행되지않음. 
+
+
 이후 localhost:3000 으로 접속하면 해당 웹페이지가 접속됨
 
 

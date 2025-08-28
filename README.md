@@ -36,6 +36,7 @@ cd 저장소명
 cd backend
 ./mvnw spring-boot:run
 ```
+이후 localhost:8080으로 접속하면 node.js 만든 웹페이지가 접속됨 현재는 아직 node로 백엔드 개발 하지않았기때문에 아무것도 뜨지가 않음음
 
 ### 3. 프론트엔드 실행 (Next.js)
 ```bash
@@ -43,6 +44,8 @@ cd frontend
 npm install
 npm run dev
 ```
+이후 localhost:3000 으로 접속하면 해당 웹페이지가 접속됨
+
 
 ## 🔧 개발 환경
 

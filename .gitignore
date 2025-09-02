@@ -68,5 +68,5 @@ coverage/
 tmp/
 temp/
 
-"src/main/resources/application.properties"
+src/main/resources/application.properties
 target/classes/application.properties

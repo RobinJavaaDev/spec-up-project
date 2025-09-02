@@ -73,3 +73,8 @@ build/
 
 
 .DS_Store
+
+# Untracked files to ignore
+application.properties.txt
+frontend/
+src/main/java/com/supring/spec_up_project/controller/CustomerCenterApiController.java

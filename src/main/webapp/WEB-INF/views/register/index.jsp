@@ -19,11 +19,7 @@
     </div>
     <div class="input-group">
     	<label for="password">패스워드</label>
-<<<<<<< HEAD
-    	<input type="text" id="password" name="password" required>
-=======
     	<input type="password" id="password" name="password" required>
->>>>>>> 519a679676e2f27036f262a07b50f1105a9e691a
     </div>
     <div class="input-group">
     	<label for="writer">작성자</label>
